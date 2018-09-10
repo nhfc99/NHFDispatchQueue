@@ -52,7 +52,7 @@
 		89591E2021466AC9004CF51D = {
 			isa = PBXGroup;
 			children = (
-				89591E5021466B98004CF51D /* Class */,
+				89591E5021466B98004CF51D /* Classes */,
 				89591E2B21466AC9004CF51D /* NHFDispatchQueue */,
 				89591E2A21466AC9004CF51D /* Products */,
 			);
@@ -82,15 +82,7 @@
 			path = NHFDispatchQueue;
 			sourceTree = "<group>";
 		};
-		89591E5021466B98004CF51D /* Class */ = {
-			isa = PBXGroup;
-			children = (
-				89591E5121466BCD004CF51D /* NHFDispatchQueue */,
-			);
-			path = Class;
-			sourceTree = "<group>";
-		};
-		89591E5121466BCD004CF51D /* NHFDispatchQueue */ = {
+		89591E5021466B98004CF51D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
 				89591E5821466BCD004CF51D /* NHFDispatchQueueSetting.h */,
@@ -98,7 +90,7 @@
 				89591E5521466BCD004CF51D /* NHFCustomDispatchQueue */,
 				89591E5921466BCD004CF51D /* NHFOperationQueue */,
 			);
-			path = NHFDispatchQueue;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		89591E5221466BCD004CF51D /* NHFTaskGroupQueue */ = {
