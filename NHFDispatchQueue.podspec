@@ -16,10 +16,10 @@ Pod::Spec.new do |s|
         ss.public_header_files = ['Class/NHFDispatchQueue/NHFCustomDispatchQueue/.h']
 
     s.subspec 'NHFOperationQueue' do |ss|
-    ss.source_files = 'Class/NHFDispatchQueue/NHFOperationQueue/*.{h,m}'
-    ss.public_header_files = ['Class/NHFDispatchQueue/NHFOperationQueue/.h']
+        ss.source_files = 'Class/NHFDispatchQueue/NHFOperationQueue/*.{h,m}'
+        ss.public_header_files = ['Class/NHFDispatchQueue/NHFOperationQueue/.h']
 
     s.subspec 'NHFTaskGroupQueue' do |ss|
-    ss.source_files = 'Class/NHFDispatchQueue/NHFTaskGroupQueue/*.{h,m}'
-    ss.public_header_files = ['Class/NHFDispatchQueue/NHFTaskGroupQueue/.h']
+        ss.source_files = 'Class/NHFDispatchQueue/NHFTaskGroupQueue/*.{h,m}'
+        ss.public_header_files = ['Class/NHFDispatchQueue/NHFTaskGroupQueue/.h']
 end
