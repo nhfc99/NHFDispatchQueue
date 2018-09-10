@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "NHFDispatchQueue"
-    s.version      = "1.0.0"
+    s.version      = "1.0.1"
     s.summary      = "GCD中队列等的集合操作"
     s.homepage     = "https://github.com/nhfc99/NHFDispatchQueue.git"
     s.license      = "MIT"
@@ -12,15 +12,15 @@ Pod::Spec.new do |s|
     s.public_header_files = ['Classes/*.h']
     s.frameworks = 'QuartzCore','CoreData','Foundation','UIKit'
     s.subspec 'NHFCustomDispatchQueue' do |ss|
-        ss.source_files = 'Classes/NHFCustomDispatchQueue/*.{h,m}'
-        ss.public_header_files = 'Classes/NHFCustomDispatchQueue/*.h'
+        ss.source_files = 'Classes/**/*.{h,m}'
+        ss.public_header_files = 'Classes/**/*.h'
     end
     s.subspec 'NHFOperationQueue' do |ss|
-        ss.source_files = 'Classes/NHFOperationQueue/*.{h,m}'
-        ss.public_header_files = 'Classes/NHFOperationQueue/*.h'
+        ss.source_files = 'Classes/**/*.{h,m}'
+        ss.public_header_files = 'Classes/**/*.h'
     end
     s.subspec 'NHFTaskGroupQueue' do |ss|
-        ss.source_files = 'Classes/NHFTaskGroupQueue/*.{h,m}'
-        ss.public_header_files = 'Classes/NHFTaskGroupQueue/*.h'
+        ss.source_files = 'Classes/**/*.{h,m}'
+        ss.public_header_files = 'Classes/**/*.h'
     end
 end
