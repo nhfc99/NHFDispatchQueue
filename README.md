@@ -8,7 +8,6 @@
 </ul>
 
 <h2>使用方法</h2>
-<h3>
 #import "FirstViewController.h"
 
 #import "NHFTaskGroupQueue.h"
@@ -124,4 +123,3 @@ taskGroupQueueResult();
 
 @end
 
-</h3>
