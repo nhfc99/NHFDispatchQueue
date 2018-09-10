@@ -13,14 +13,14 @@ Pod::Spec.new do |s|
     s.frameworks = 'QuartzCore','CoreData','Foundation','UIKit'
     s.subspec 'NHFCustomDispatchQueue' do |ss|
         ss.source_files = 'Class/NHFDispatchQueue/NHFCustomDispatchQueue/*.{h,m}'
-        ss.public_header_files = ['Class/NHFDispatchQueue/NHFCustomDispatchQueue/*.h']
+        ss.public_header_files = 'Class/NHFDispatchQueue/NHFCustomDispatchQueue/*.h'
     end
     s.subspec 'NHFOperationQueue' do |ss|
         ss.source_files = 'Class/NHFDispatchQueue/NHFOperationQueue/*.{h,m}'
-        ss.public_header_files = ['Class/NHFDispatchQueue/NHFOperationQueue/*.h']
+        ss.public_header_files = 'Class/NHFDispatchQueue/NHFOperationQueue/*.h'
     end
     s.subspec 'NHFTaskGroupQueue' do |ss|
         ss.source_files = 'Class/NHFDispatchQueue/NHFTaskGroupQueue/*.{h,m}'
-        ss.public_header_files = ['Class/NHFDispatchQueue/NHFTaskGroupQueue/*.h']
+        ss.public_header_files = 'Class/NHFDispatchQueue/NHFTaskGroupQueue/*.h'
     end
 end
