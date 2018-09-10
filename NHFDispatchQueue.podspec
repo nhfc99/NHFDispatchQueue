@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '8.0'
     s.source       = {:git => "https://github.com/nhfc99/NHFDispatchQueue.git",:tag => s.version.to_s}
     s.requires_arc = true
-    s.public_header_files = ['Classes/*.h']
+    s.public_header_files = 'Classes/*.h'
     s.frameworks = 'QuartzCore','CoreData','Foundation','UIKit'
     s.subspec 'NHFCustomDispatchQueue' do |ss|
         ss.source_files = 'Classes/**/*.{h,m}'
