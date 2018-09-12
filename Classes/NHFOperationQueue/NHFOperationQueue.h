@@ -34,6 +34,12 @@ typedef void(^NHFOperationQueueResult)(void);
  */
 - (void)beginOperationTask;
 
+
+/**
+ 取消所有的任务
+ */
+- (void)cancelAllOperations;
+
 @end
 
 

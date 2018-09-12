@@ -46,6 +46,7 @@
 {
     _dispatchQueue = NULL;
     _dispatchGroup = NULL;
+    NSLog(@"NHFTaskGroupQueue %s", __FUNCTION__);
 }
 
 @end

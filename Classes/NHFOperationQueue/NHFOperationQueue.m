@@ -21,9 +21,17 @@
 
 + (NHFOperationQueue *)createOperationQueue {
     NHFOperationQueue *operationQueue = [NHFOperationQueue new];
-    operationQueue->_operationQueue = [[NSOperationQueue alloc] init];
-    operationQueue->_semaphore = dispatch_semaphore_create(1);
     return operationQueue;
+}
+
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        _operationQueue = [[NSOperationQueue alloc] init];
+        _semaphore = dispatch_semaphore_create(0);
+    }
+    return self;
 }
 
 - (NSMutableArray *)operations {
@@ -56,8 +64,19 @@
 
 - (void)beginOperationTask {
     [_operationQueue addOperations:self.operations waitUntilFinished:NO];
+    dispatch_semaphore_signal(_semaphore);
 }
 
+- (void)cancelAllOperations {
+    [_operationQueue cancelAllOperations];
+    [_operations removeAllObjects];
+    _operations = nil;
+}
+
+- (void)dealloc
+{
+    NSLog(@"NHFOperationQueue %s", __FUNCTION__);
+}
 
 @end
 
