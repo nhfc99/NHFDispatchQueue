@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
         ss.public_header_files = 'Classes/NHFOperationQueue/NHFOperationQueue.h'
     end
     s.subspec 'NHFTaskGroupQueue' do |ss|
-        ss.source_files = 'Classes/NHFOperationQueue/NHFOperationQueue.{h,m}'
-        ss.public_header_files = 'Classes/NHFOperationQueue/NHFOperationQueue.h'
+        ss.source_files = 'Classes/NHFTaskGroupQueue/NHFTaskGroupQueue.{h,m}'
+        ss.public_header_files = 'Classes/NHFTaskGroupQueue/NHFTaskGroupQueue.h'
     end
 end
