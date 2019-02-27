@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		890427BC22263D6C009F6E21 /* NHFDispatchSemaphore.m in Sources */ = {isa = PBXBuildFile; fileRef = 890427BB22263D6C009F6E21 /* NHFDispatchSemaphore.m */; };
 		89591E2E21466AC9004CF51D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89591E2D21466AC9004CF51D /* AppDelegate.m */; };
 		89591E3121466AC9004CF51D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89591E3021466AC9004CF51D /* ViewController.m */; };
 		89591E3421466AC9004CF51D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89591E3221466AC9004CF51D /* Main.storyboard */; };
@@ -19,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		890427BA22263D6B009F6E21 /* NHFDispatchSemaphore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHFDispatchSemaphore.h; sourceTree = "<group>"; };
+		890427BB22263D6C009F6E21 /* NHFDispatchSemaphore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHFDispatchSemaphore.m; sourceTree = "<group>"; };
 		89591E2921466AC9004CF51D /* NHFDispatchQueue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NHFDispatchQueue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89591E2C21466AC9004CF51D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		89591E2D21466AC9004CF51D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -49,6 +52,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		890427B922263D50009F6E21 /* NHFDispatchSemaphore */ = {
+			isa = PBXGroup;
+			children = (
+				890427BA22263D6B009F6E21 /* NHFDispatchSemaphore.h */,
+				890427BB22263D6C009F6E21 /* NHFDispatchSemaphore.m */,
+			);
+			path = NHFDispatchSemaphore;
+			sourceTree = "<group>";
+		};
 		89591E2021466AC9004CF51D = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				89591E5821466BCD004CF51D /* NHFDispatchQueueSetting.h */,
+				890427B922263D50009F6E21 /* NHFDispatchSemaphore */,
 				89591E5221466BCD004CF51D /* NHFTaskGroupQueue */,
 				89591E5521466BCD004CF51D /* NHFCustomDispatchQueue */,
 				89591E5921466BCD004CF51D /* NHFOperationQueue */,
@@ -191,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				89591E3121466AC9004CF51D /* ViewController.m in Sources */,
+				890427BC22263D6C009F6E21 /* NHFDispatchSemaphore.m in Sources */,
 				89591E3C21466ACB004CF51D /* main.m in Sources */,
 				89591E5E21466BCD004CF51D /* NHFOperationQueue.m in Sources */,
 				89591E2E21466AC9004CF51D /* AppDelegate.m in Sources */,

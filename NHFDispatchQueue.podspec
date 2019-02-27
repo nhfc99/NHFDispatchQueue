@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "NHFDispatchQueue"
-    s.version      = "1.0.2"
+    s.version      = "1.0.3"
     s.summary      = "GCD中队列等集合操作"
     s.homepage     = "https://github.com/nhfc99/NHFDispatchQueue.git"
     s.license      = "MIT"
@@ -25,5 +25,9 @@ Pod::Spec.new do |s|
     s.subspec 'NHFTaskGroupQueue' do |ss|
         ss.source_files = 'Classes/NHFTaskGroupQueue/NHFTaskGroupQueue.{h,m}'
         ss.public_header_files = 'Classes/NHFTaskGroupQueue/NHFTaskGroupQueue.h'
+    end
+    s.subspec 'NHFDispatchSemaphore' do |ss|
+        ss.source_files = 'Classes/NHFDispatchSemaphore/NHFDispatchSemaphore.{h,m}'
+        ss.public_header_files = 'Classes/NHFDispatchSemaphore/NHFDispatchSemaphore.h'
     end
 end
