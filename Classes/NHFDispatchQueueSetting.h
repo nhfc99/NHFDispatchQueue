@@ -12,5 +12,6 @@
 #import "NHFCustomDispatchQueue.h"
 #import "NHFOperationQueue.h"
 #import "NHFTaskGroupQueue.h"
+#import "NHFDispatchSemaphore.h"
 
 #endif /* NHFDispatchQueueSetting_h */

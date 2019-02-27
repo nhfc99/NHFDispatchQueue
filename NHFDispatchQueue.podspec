@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "NHFDispatchQueue"
-    s.version      = "1.0.3"
+    s.version      = "1.0.4"
     s.summary      = "GCD中队列等集合操作"
     s.homepage     = "https://github.com/nhfc99/NHFDispatchQueue.git"
     s.license      = "MIT"
